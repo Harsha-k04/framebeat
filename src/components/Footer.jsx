@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold">Office Address</h4>
           <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-             6th Floor, Sky Tower, D Space Suite No. 31, Mavoor Road Junction, Kozhikode, Kerala 673001{
+             6th Floor, Sky Tower, D Space Suite No. 31, Mavoor Road Junction, Kozhikode, Kerala 673001
           </p>
         </div>
 
