@@ -33,38 +33,14 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         {/* Service detail pages */}
-        <Route
-          path="/services/brand-video-production"
-          element={<BrandVideoProduction />}
-        />
-        <Route
-          path="/services/ai-video-production"
-          element={<AIVideoProduction />}
-        />
-        <Route
-          path="/services/influencer-marketing"
-          element={<InfluencerMarketing />}
-        />
-        <Route
-          path="/services/social-media-management"
-          element={<SocialMediaManagement />}
-        />
-        <Route
-          path="/services/podcast-production"
-          element={<PodcastProduction />}
-        />
-        <Route
-          path="/services/content-creation"
-          element={<ContentCreation />}
-        />
-        <Route
-          path="/services/ai-music-audio"
-          element={<AIMusicAudioProduction />}
-        />
-        <Route
-          path="/services/youtube-management"
-          element={<YouTubeChannelManagement />}
-        />
+        <Route path="/services/brand-video-production" element={<BrandVideoProduction />} />
+        <Route path="/services/ai-video-production" element={<AIVideoProduction />} />
+        <Route path="/services/influencer-marketing" element={<InfluencerMarketing />} />
+        <Route path="/services/social-media-management" element={<SocialMediaManagement />} />
+        <Route path="/services/podcast-production" element={<PodcastProduction />} />
+        <Route path="/services/content-creation" element={<ContentCreation />} />
+        <Route path="/services/ai-music-audio" element={<AIMusicAudioProduction />} />
+        <Route path="/services/youtube-management" element={<YouTubeChannelManagement />} />
       </Routes>
 
       <Footer />
