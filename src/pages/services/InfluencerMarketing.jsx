@@ -1,31 +1,36 @@
+import SEO from "../../components/SEO"
+
 export default function InfluencerMarketing() {
-    return (
-        <div className="max-w-7xl mx-auto px-6 py-24">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
-                Influencer Marketing
-            </h1>
+  return (
+    <>
+      <SEO
+        title="Influencer Marketing Agency | Framebeat Labs & Media LLP"
+        description="Strategic influencer marketing campaigns with creators that align with your brand values."
+        keywords="influencer marketing agency, creator marketing India"
+        url="https://framebeat.vercel.app/services/influencer-marketing"
+      />
 
-            <p className="mt-6 text-neutral-400 max-w-3xl">
-                We connect brands with the right local, regional, and national influencers
-                to deliver authentic campaigns that drive engagement and trust.
-            </p>
+      <div className="max-w-7xl mx-auto px-6 py-24">
+        <h1 className="text-4xl md:text-5xl font-semibold">
+          Influencer Marketing
+        </h1>
 
-            <h2 className="mt-16 text-2xl font-semibold">Our Process</h2>
+        <p className="mt-6 text-neutral-300 max-w-3xl">
+          We connect brands with the right creators to build authentic engagement
+          and measurable results.
+        </p>
 
-            <ul className="mt-6 list-disc list-inside space-y-2 text-neutral-400">
-                <li>Influencer discovery & shortlisting</li>
-                <li>Campaign planning & strategy</li>
-                <li>Content coordination & approvals</li>
-                <li>Performance tracking & reporting</li>
-            </ul>
+        <ul className="mt-16 space-y-3 text-neutral-300 list-disc list-inside">
+          <li>Influencer discovery & vetting</li>
+          <li>Campaign strategy & execution</li>
+          <li>Content coordination</li>
+          <li>Performance tracking</li>
+        </ul>
 
-            <p className="mt-10 text-neutral-400 max-w-3xl">
-                We focus on creator-led storytelling that converts, not scripted ads.
-            </p>
-
-            <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
-                Contact Us
-            </a>
-        </div>
-    )
+        <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
+          Launch an Influencer Campaign
+        </a>
+      </div>
+    </>
+  )
 }
