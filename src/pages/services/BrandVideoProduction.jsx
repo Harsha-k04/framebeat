@@ -1,40 +1,43 @@
+import SEO from "../../components/SEO"
+
 export default function BrandVideoProduction() {
-    return (
-        <div className="max-w-7xl mx-auto px-6 py-24">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
-                Brand Video Production Services
-            </h1>
+  return (
+    <>
+      <SEO
+        title="Brand Video Production Services | Framebeat Labs & Media LLP"
+        description="Professional brand video production services including commercials, corporate films, explainer videos, and brand storytelling."
+        keywords="brand video production, corporate videos, commercial video production India"
+        url="https://framebeat.vercel.app/services/brand-video-production"
+      />
 
-            <p className="mt-6 text-neutral-400 max-w-3xl">
-                At Framebeat Labs & Media LLP, we create high-quality brand videos,
-                commercials, corporate films, ads, reels, and promotional content
-                designed to tell compelling brand stories and drive real business
-                results.
-            </p>
+      <div className="max-w-7xl mx-auto px-6 py-24">
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
+          Brand Video Production
+        </h1>
 
-            <h2 className="mt-16 text-2xl font-semibold">
-                What We Offer
-            </h2>
+        <p className="mt-6 text-neutral-300 max-w-3xl">
+          We craft high-impact brand videos that communicate your story, values,
+          and vision through cinematic visuals and compelling narratives.
+        </p>
 
-            <ul className="mt-6 space-y-3 text-neutral-400 list-disc list-inside">
-                <li>Concept development & scripting</li>
-                <li>On-location & studio filming</li>
-                <li>Professional editing & color grading</li>
-                <li>Motion graphics & post-production</li>
-                <li>Platform-optimized video formats</li>
-            </ul>
+        <h2 className="mt-16 text-2xl font-semibold">What We Create</h2>
+        <ul className="mt-6 list-disc list-inside space-y-3 text-neutral-300">
+          <li>Brand films & commercials</li>
+          <li>Corporate & company profile videos</li>
+          <li>Explainer & product videos</li>
+          <li>Campaign & launch videos</li>
+        </ul>
 
-            <p className="mt-10 text-neutral-400 max-w-3xl">
-                Our brand videos are designed to improve brand awareness, build trust,
-                and increase conversions across digital platforms.
-            </p>
+        <h2 className="mt-16 text-2xl font-semibold">Why It Works</h2>
+        <p className="mt-6 text-neutral-400 max-w-3xl">
+          Video builds trust faster than any other medium. Our videos are designed
+          to engage, convert, and leave a lasting brand impression.
+        </p>
 
-            <a
-                href="/contact"
-                className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg hover:bg-neutral-200"
-            >
-                Contact Us
-            </a>
-        </div>
-    )
+        <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
+          Start a Video Project
+        </a>
+      </div>
+    </>
+  )
 }
