@@ -1,0 +1,82 @@
+import { motion } from "framer-motion"
+
+export default function Home() {
+  return (
+    <div className="px-6 md:px-20">
+      {/* Hero */}
+      <section className="max-w-7xl mx-auto px-6 pt-28 pb-24">
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-5xl md:text-7xl font-semibold tracking-tight leading-tight max-w-4xl"
+        >
+          Media, AI & Marketing Solutions
+          <span className="block text-gray-500">for Modern Brands</span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="mt-8 text-lg text-gray-600 max-w-2xl"
+        >
+          We help brands grow through cinematic video production, AI-powered
+          content, influencer marketing, and strategic digital storytelling.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="mt-10 flex gap-4"
+        >
+          <a
+            href="/contact"
+            className="px-6 py-3 bg-black text-white rounded-lg"
+          >
+            Start a Project
+          </a>
+
+          <a
+            href="/services"
+            className="px-6 py-3 border rounded-lg"
+          >
+            View Services
+          </a>
+        </motion.div>
+      </section>
+
+      {/* What We Do */}
+      <section className="max-w-7xl mx-auto px-6 py-24 border-t">
+        <div className="max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+            What We Do
+          </h2>
+
+          <p className="mt-6 text-gray-600 leading-relaxed">
+            Framebeat Labs & Media LLP delivers end-to-end media, AI, and digital
+            marketing solutions designed to build visibility, engagement, and
+            long-term brand value.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <div className="bg-black text-white rounded-3xl p-12 md:p-20">
+          <h3 className="text-3xl md:text-4xl font-semibold tracking-tight max-w-2xl">
+            Ready to build content that actually grows your brand?
+          </h3>
+
+          <a
+            href="/contact"
+            className="inline-block mt-8 px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition"
+          >
+            Contact Us
+          </a>
+        </div>
+      </section>
+    </div>
+  )
+}
