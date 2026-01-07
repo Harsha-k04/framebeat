@@ -119,7 +119,7 @@ export default function Contact() {
 
           <p className="mt-4 text-neutral-400 leading-relaxed">
             Framebeat Labs & Media LLP<br />
-            Kozhikode, Kerala, India
+             6th Floor, Sky Tower, D Space Suite No. 31, Mavoor Road Junction, Kozhikode, Kerala 673001
           </p>
 
           <p className="mt-2 text-neutral-500 text-sm">
