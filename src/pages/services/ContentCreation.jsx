@@ -1,24 +1,36 @@
+import SEO from "../../components/SEO"
+
 export default function ContentCreation() {
-    return (
-        <div className="max-w-7xl mx-auto px-6 py-24">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
-                Content Creation for Brands
-            </h1>
+  return (
+    <>
+      <SEO
+        title="Content Creation Services | Framebeat Labs & Media LLP"
+        description="Creative content creation for brands including video, audio, and digital storytelling."
+        keywords="content creation agency, digital content services"
+        url="https://framebeat.vercel.app/services/content-creation"
+      />
 
-            <p className="mt-6 text-neutral-400 max-w-3xl">
-                We create platform-specific content designed to engage audiences and
-                strengthen brand identity.
-            </p>
+      <div className="max-w-7xl mx-auto px-6 py-24">
+        <h1 className="text-4xl md:text-5xl font-semibold">
+          Content Creation
+        </h1>
 
-            <ul className="mt-16 list-disc list-inside space-y-2 text-neutral-400">
-                <li>Short-form videos & reels</li>
-                <li>Visual creatives & captions</li>
-                <li>Scripts, ads & campaign content</li>
-            </ul>
+        <p className="mt-6 text-neutral-300 max-w-3xl">
+          We create platform-optimized content that connects with audiences and
+          strengthens brand identity.
+        </p>
 
-            <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
-                Contact Us
-            </a>
-        </div>
-    )
+        <ul className="mt-16 list-disc list-inside space-y-3 text-neutral-300">
+          <li>Video & reel content</li>
+          <li>Branded visuals</li>
+          <li>Creative storytelling</li>
+          <li>Campaign content</li>
+        </ul>
+
+        <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
+          Create Content With Us
+        </a>
+      </div>
+    </>
+  )
 }
