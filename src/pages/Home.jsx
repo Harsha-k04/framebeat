@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import SEO from "../components/SEO"
+import ReviewsCarousel from "../components/ReviewsCarousel"
 
 export default function Home() {
   return (
@@ -69,6 +70,35 @@ export default function Home() {
               long-term brand value.
             </p>
           </div>
+        </section>
+
+        {/* Reviews */}
+        <section className="max-w-7xl mx-auto px-6 py-24 border-t">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+            What Our Clients Say
+          </h2>
+
+          <p className="mt-4 text-gray-600 max-w-2xl">
+            Brands trust Framebeat Labs & Media LLP for high-quality media,
+            AI-driven creativity, and strategic marketing execution.
+          </p>
+
+          <div className="mt-12">
+            <ReviewsCarousel />
+          </div>
+
+          <p className="mt-6 text-sm text-neutral-500">
+            Reviews sourced from Google
+          </p>
+
+          <a
+            href="https://www.google.com/maps/place/Framebeat+Labs+%26+Media+LLP"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block text-sm underline"
+          >
+            View on Google →
+          </a>
         </section>
 
         {/* CTA */}
