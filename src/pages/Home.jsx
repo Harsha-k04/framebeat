@@ -92,7 +92,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://www.google.com/maps/place/Framebeat+Labs+%26+Media+LLP"
+            href="https://www.google.co.in/search?sca_esv=07b6421d581a57bc&sxsrf=AE3TifNq6KkxTtMjqzSqyH-bS3hpqA2gqg:1767804447530&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E3o7P_y15QT6ncjmf_1KuPtd1HfdzR42PMnMt38RbGOmJ9G6cY_MRbS7S_LlsIs6mSM2TP-AR6R8rSBICQjiySpvz0oLI2r6Pef5nhRikLvXxqy0rA%3D%3D&q=Framebeat+Labs+%26+Media+LLP+Reviews&sa=X&ved=2ahUKEwjvkoLh8PmRAxWD8zgGHZl2JPkQ0bkNegQIHRAE&biw=1536&bih=730&dpr=1.25#lrd=0x3ba65990781f2b77:0xe34d0c755a71c52f,3,,,,"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 inline-block text-sm underline"
