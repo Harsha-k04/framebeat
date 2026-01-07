@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
         // 2️⃣ Send email
         await resend.emails.send({
-            from: "Framebeat <noreply@framebeat.in>",
+            from: "Framebeat <onboarding@resend.dev>",
             to: process.env.CONTACT_RECEIVER_EMAIL,
             subject: "New Contact Form Submission",
             html: `
