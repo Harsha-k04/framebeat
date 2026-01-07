@@ -5,7 +5,7 @@ export default function AIVideoProduction() {
     <>
       <SEO
         title="AI Video Production Services | Framebeat Labs & Media LLP"
-        description="AI-powered video production services for scalable, fast, and high-quality content creation."
+        description="Scalable AI-powered video production for fast, cost-effective, and consistent content creation."
         keywords="AI video production, automated video content, AI media services"
         url="https://framebeat.vercel.app/services/ai-video-production"
       />
@@ -16,20 +16,36 @@ export default function AIVideoProduction() {
         </h1>
 
         <p className="mt-6 text-neutral-300 max-w-3xl">
-          Our AI-driven video workflows allow brands to produce high-quality
-          content faster, smarter, and at scale.
+          Our AI video production service helps brands scale content creation
+          without compromising quality, consistency, or speed.
         </p>
 
-        <ul className="mt-16 list-disc list-inside space-y-3 text-neutral-300">
-          <li>AI-generated promotional videos</li>
-          <li>Short-form social media videos</li>
-          <li>Automated content variations</li>
-          <li>Multilingual video production</li>
+        <h2 className="mt-16 text-2xl font-semibold">Who This Is For</h2>
+        <p className="mt-4 text-neutral-400 max-w-3xl">
+          Brands that require frequent content output for ads, social media,
+          explainers, or product marketing.
+        </p>
+
+        <h2 className="mt-16 text-2xl font-semibold">Our Approach</h2>
+        <ul className="mt-6 list-disc list-inside space-y-3 text-neutral-300">
+          <li>AI-assisted scripting and visuals</li>
+          <li>Automated video generation</li>
+          <li>Human creative oversight</li>
+          <li>Brand-consistent output</li>
         </ul>
 
-        <p className="mt-12 text-neutral-400 max-w-3xl">
-          Perfect for brands that need speed, consistency, and innovation without
-          compromising creative quality.
+        <h2 className="mt-16 text-2xl font-semibold">What You Get</h2>
+        <ul className="mt-6 list-disc list-inside space-y-3 text-neutral-300">
+          <li>Short-form marketing videos</li>
+          <li>Explainer & product videos</li>
+          <li>Multi-variant ad creatives</li>
+          <li>Faster turnaround at scale</li>
+        </ul>
+
+        <h2 className="mt-16 text-2xl font-semibold">Why Framebeat</h2>
+        <p className="mt-4 text-neutral-400 max-w-3xl">
+          We combine AI efficiency with creative direction to ensure quality
+          doesn’t get lost in automation.
         </p>
 
         <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
