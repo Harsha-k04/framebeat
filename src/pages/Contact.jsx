@@ -1,4 +1,5 @@
 import { useState } from "react"
+import SEO from "../components/SEO"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -45,6 +46,13 @@ export default function Contact() {
   }
 
   return (
+    <>
+      <SEO
+        title="Contact Framebeat Labs & Media LLP | Media & Marketing Agency"
+        description="Contact Framebeat Labs & Media LLP for video production, AI content, influencer marketing, and digital growth solutions."
+        keywords="contact media company, marketing agency Kerala, video production Kozhikode"
+        url="https://framebeat.vercel.app/contact"
+      />
     <div className="max-w-7xl mx-auto px-6 py-24">
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
@@ -142,5 +150,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </>
   )
 }
