@@ -3,18 +3,18 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const reviews = [
   {
-    text: "Framebeat Labs & Media LLP delivered outstanding video content that elevated our brand presence.",
-    name: "Client Name",
+    text: "We were impressed with the quality of brand videos delivered by Framebeat Labs & Media LLP. The visuals, storytelling, and editing were clean and professional. They understood our requirements clearly and delivered exactly what we needed.",
+    name: "Bhavik Shah",
     source: "Google Review",
   },
   {
-    text: "Professional team with a strong creative vision. Highly recommended for media and marketing work.",
-    name: "Client Name",
+    text: "We collaborated with Framebeat Labs & Media LLP for an influencer campaign, and the process was smooth from start to finish. Influencer selection was spot-on, and the content felt authentic rather than promotional. We saw good engagement and reach from the campaign.",
+    name: "sooraj Suresh",
     source: "Google Review",
   },
   {
-    text: "Great experience working with Framebeat Labs. The quality and execution were excellent.",
-    name: "Client Name",
+    text: "What stands out about Framebeat Labs & Media LLP is their professionalism and reliability. Clear communication, timely delivery, and strong creative execution. They understand both creativity and business requirements very well.",
+    name: "Iam",
     source: "Google Review",
   },
 ]
