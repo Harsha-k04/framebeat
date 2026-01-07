@@ -23,7 +23,7 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold">Contact</h4>
           <p className="mt-4 text-gray-600 text-sm">
-            Email: contact@framebeat.in
+            Email: contact@framebeat.com
           </p>
         </div>
       </div>
