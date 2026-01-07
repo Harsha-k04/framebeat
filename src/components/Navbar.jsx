@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom"
+import logo from "../assets/logo.png"
+
 
 export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-neutral-800 bg-neutral-950/80 backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-        <Link
-          to="/"
-          className="text-lg font-semibold tracking-tight"
-        >
-          Framebeat Labs
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Framebeat Labs & Media LLP"
+            className="h-9 w-auto"
+          />
         </Link>
 
         <div className="flex gap-6 text-sm text-neutral-400">
