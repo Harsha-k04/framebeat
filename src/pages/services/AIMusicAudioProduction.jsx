@@ -61,6 +61,10 @@ export default function AIMusicAudioProduction() {
         <h2 className="mt-16 text-2xl font-semibold tracking-tight">
           Why Choose Framebeat Labs & Media LLP
         </h2>
+        <p className="mt-4 text-neutral-400 max-w-3xl">
+          We work with brands across India and globally, delivering AI-driven video solutions tailored to each market.
+        </p>
+
 
         <ul className="mt-6 space-y-3 text-neutral-300">
           <li>✔ 100% original & copyright-safe audio</li>
