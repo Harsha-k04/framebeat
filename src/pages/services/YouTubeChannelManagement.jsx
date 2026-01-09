@@ -19,6 +19,9 @@ export default function YouTubeChannelManagement() {
           We help brands and creators grow YouTube channels with consistent content,
           SEO optimization, and audience engagement strategies.
         </p>
+        <p className="mt-4 text-neutral-400 max-w-3xl">
+          We work with brands across India and globally, delivering AI-driven video solutions tailored to each market.
+        </p>
 
         <ul className="mt-16 list-disc list-inside space-y-3 text-neutral-300">
           <li>Channel strategy & positioning</li>
