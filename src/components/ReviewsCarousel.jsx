@@ -9,7 +9,7 @@ const reviews = [
   },
   {
     text: "We collaborated with Framebeat Labs & Media LLP for an influencer campaign, and the process was smooth from start to finish. Influencer selection was spot-on, and the content felt authentic rather than promotional. We saw good engagement and reach from the campaign.",
-    name: "sooraj Suresh",
+    name: "Sooraj Suresh",
     source: "Google Review",
   },
   {
