@@ -82,10 +82,10 @@ export default function Footer() {
           <p className="mt-4 text-neutral-400 text-sm">
             Email:{" "}
             <a
-              href="mailto:contact@framebeat.in"
+              href="mailto:contact@framebeatlabs.com"
               className="hover:text-white transition"
             >
-              contact@framebeat.in
+              contact@framebeatlabs.com
             </a>
           </p>
         </div>
