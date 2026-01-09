@@ -4,24 +4,77 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global professional defaults */
+/* -------------------------------
+   Global defaults
+-------------------------------- */
 html,
 body {
   @apply bg-neutral-950 text-neutral-100 antialiased;
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  scroll-behavior: smooth;
 }
 
-/* Better default text rendering */
+/* Prevent layout issues on mobile */
+* {
+  box-sizing: border-box;
+}
+
+/* -------------------------------
+   Typography improvements
+-------------------------------- */
+
+/* Paragraphs */
 p {
-  @apply text-neutral-300 leading-relaxed;
+  @apply text-neutral-300 leading-relaxed text-sm md:text-base;
 }
 
-/* Headings default */
-h1, h2, h3, h4 {
+/* Headings */
+h1 {
+  @apply text-white font-semibold tracking-tight;
+}
+
+h2 {
+  @apply text-white font-semibold tracking-tight;
+}
+
+h3 {
+  @apply text-white font-medium;
+}
+
+h4 {
+  @apply text-white font-medium;
+}
+
+/* -------------------------------
+   Links
+-------------------------------- */
+a {
+  @apply no-underline text-inherit transition-colors duration-200;
+}
+
+/* Hover visibility on dark background */
+a:hover {
   @apply text-white;
 }
 
-/* Remove default link styles */
-a {
-  @apply no-underline text-inherit;
+/* -------------------------------
+   Buttons (global consistency)
+-------------------------------- */
+button {
+  @apply font-medium;
+}
+
+/* -------------------------------
+   Forms (better UX)
+-------------------------------- */
+input,
+textarea {
+  @apply text-neutral-100 placeholder-neutral-500;
+}
+
+/* -------------------------------
+   Images
+-------------------------------- */
+img {
+  @apply max-w-full h-auto;
 }
