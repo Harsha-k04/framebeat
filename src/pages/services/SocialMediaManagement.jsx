@@ -11,6 +11,12 @@ export default function SocialMediaManagement() {
       />
 
       <div className="max-w-7xl mx-auto px-6 py-24">
+        <a
+          href="/services"
+          className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-white transition"
+        >
+          ← Back to Services
+        </a>
         <h1 className="text-4xl md:text-5xl font-semibold">
           Social Media Management
         </h1>
