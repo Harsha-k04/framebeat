@@ -9,6 +9,8 @@ import Services from "./pages/Services"
 import About from "./pages/About"
 import CaseStudies from "./pages/CaseStudies"
 import Contact from "./pages/Contact"
+import Careers from "./pages/Careers"
+
 
 // Service pages
 import BrandVideoProduction from "./pages/services/BrandVideoProduction"
@@ -42,6 +44,8 @@ function App() {
         <Route path="/services/content-creation" element={<ContentCreation />} />
         <Route path="/services/ai-music-audio" element={<AIMusicAudioProduction />} />
         <Route path="/services/youtube-management" element={<YouTubeChannelManagement />} />
+        <Route path="/careers" element={<Careers />} />
+
       </Routes>
 
       <Footer />
