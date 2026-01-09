@@ -45,6 +45,9 @@ export default function InfluencerMarketing() {
         <p className="mt-4 text-neutral-400 max-w-3xl">
           We prioritize authenticity over vanity metrics.
         </p>
+        <p className="mt-4 text-neutral-400 max-w-3xl">
+          We work with brands across India and globally, delivering AI-driven video solutions tailored to each market.
+        </p>
 
         <a href="/contact" className="inline-block mt-12 px-6 py-3 bg-white text-black rounded-lg">
           Launch an Influencer Campaign
