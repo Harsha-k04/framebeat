@@ -8,6 +8,10 @@ export default function About() {
         Framebeat Labs & Media LLP is a modern media, AI, and marketing studio
         helping brands grow through strategic storytelling and scalable content.
       </p>
+      <p className="mt-4 text-neutral-400 max-w-3xl">
+        We work with brands across India and globally, delivering AI-driven video solutions tailored to each market.
+      </p>
+
     </div>
   )
 }
