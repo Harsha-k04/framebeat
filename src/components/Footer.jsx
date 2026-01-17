@@ -66,10 +66,12 @@ export default function Footer() {
           </h4>
 
           <p className="mt-4 text-neutral-400 text-sm leading-relaxed">
-            6th Floor, Sky Tower,<br />
-            D Space Suite No. 31,<br />
-            Mavoor Road Junction,<br />
-            Kozhikode, Kerala 673001
+            Framebeat Labs & Media LLP<br />
+            Suite No. 31<br />
+            Door No. 63/700<br />
+            D Space, 6th Floor<br />
+            Sky Tower, Mavoor Road Junction<br />
+            Bank Road, Kozhikode-673001
           </p>
         </div>
 
