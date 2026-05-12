@@ -10,7 +10,8 @@ import About from "./pages/About"
 import CaseStudies from "./pages/CaseStudies"
 import Contact from "./pages/Contact"
 import Careers from "./pages/Careers"
-
+import Blog from "./pages/Blog"
+import BlogPost from "./pages/BlogPost"
 
 // Service pages
 import BrandVideoProduction from "./pages/services/BrandVideoProduction"
