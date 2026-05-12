@@ -62,10 +62,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between py-5">
           {/* Logo */}
-          <Link
-            to="/"
-            className="flex items-center gap-3 group"
-          >
+          <Link to="/" className="flex items-center gap-3 group">
             <img
               src={logo}
               alt="Framebeat Labs"
@@ -148,13 +145,6 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/careers"
-              className="text-neutral-400 hover:text-white transition"
-            >
-              Careers
-            </Link>
-
-            <Link
               to="/blog"
               className="text-neutral-400 hover:text-white transition"
             >
@@ -162,10 +152,24 @@ export default function Navbar() {
             </Link>
 
             <Link
+              to="/careers"
+              className="text-neutral-400 hover:text-white transition"
+            >
+              Careers
+            </Link>
+
+            <Link
+              to="/contact"
+              className="text-neutral-400 hover:text-white transition"
+            >
+              Contact
+            </Link>
+
+            <Link
               to="/contact"
               className="rounded-xl bg-white px-5 py-2.5 text-sm font-medium text-black hover:bg-neutral-200 transition shadow-lg"
             >
-              Book a Call
+              Book a Strategy Call
             </Link>
           </div>
 
@@ -252,13 +256,6 @@ export default function Navbar() {
               </Link>
 
               <Link
-                to="/careers"
-                className="block text-neutral-300 hover:text-white transition"
-              >
-                Careers
-              </Link>
-
-              <Link
                 to="/blog"
                 className="block text-neutral-300 hover:text-white transition"
               >
@@ -266,10 +263,24 @@ export default function Navbar() {
               </Link>
 
               <Link
+                to="/careers"
+                className="block text-neutral-300 hover:text-white transition"
+              >
+                Careers
+              </Link>
+
+              <Link
+                to="/contact"
+                className="block text-neutral-300 hover:text-white transition"
+              >
+                Contact
+              </Link>
+
+              <Link
                 to="/contact"
                 className="mt-4 inline-flex items-center justify-center w-full rounded-xl bg-white px-5 py-3 text-sm font-medium text-black hover:bg-neutral-200 transition"
               >
-                Book a Call
+                Book a Strategy Call
               </Link>
             </div>
           </motion.div>
