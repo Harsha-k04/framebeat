@@ -20,6 +20,9 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6 text-sm text-neutral-400">
+          <Link to="/" className="hover:text-white">
+            Home
+          </Link>
           <Link to="/about" className="hover:text-white">
             About
           </Link>
@@ -79,6 +82,10 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-neutral-800 bg-neutral-950">
           <div className="flex flex-col px-6 py-6 space-y-4 text-neutral-300">
+            <Link to="/" onClick={() => setOpen(false)}>
+              Home
+            </Link>
+            
             <Link to="/about" onClick={() => setOpen(false)}>
               About
             </Link>
