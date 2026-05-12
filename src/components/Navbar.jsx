@@ -145,7 +145,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/blogs"
+              to="/blog"
               className="text-neutral-400 hover:text-white transition"
             >
               Blog
